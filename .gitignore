@@ -1,0 +1,19 @@
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+
+# Env
+.env
+.env.local
+
+# Build
+dist/
+build/
+
