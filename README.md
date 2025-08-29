@@ -48,11 +48,44 @@ npm run dev
 - [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)  
 - [Prisma Docs](https://www.prisma.io/docs)  
 
+---
+
 ## 🗂 Commit 규칙
-feat: 새로운 기능 추가
-style: CSS/디자인 변경
-docs: 문서 추가/수정
-chore: 설정/환경 관련 작업
-fix: 버그 수정
-refactor: 코드 리팩토링
-👉 커밋 로그만 읽어도 학습 경로가 보이도록 Day별/단계별 commit을 설계했습니다.
+feat: 새로운 기능 추가 <br>
+style: CSS/디자인 변경 <br>
+docs: 문서 추가/수정 <br>
+chore: 설정/환경 관련 작업 <br>
+fix: 버그 수정 <br>
+refactor: 코드 리팩토링 <br>
+👉 커밋 로그만 읽어도 학습 경로가 보이도록 Day별/단계별 commit을 설계했습니다.<br>
+
+---
+
+## 디렉토리 구조
+
+```bash
+full-stack-in-three-days/
+├─ frontend/              # React (Vite) 프로젝트
+│  └─ src/
+│
+├─ backend/               # Express + DB 서버
+│  └─ src/
+│
+├─ docs/                  # 학습 문서
+│  ├─ git-guide.md
+│  ├─ day1-summary.md
+│  ├─ day1-learning.md
+│  ├─ day2-summary.md
+│  ├─ day2-learning.md
+│  ├─ day3-summary.md
+│  ├─ day3-learning.md
+│  ├─ day1/
+│  ├─ day2/
+│  └─ day3/
+│
+├─ assets/                # 다이어그램/이미지
+│  └─ day1_flow.png
+│
+├─ README.md
+└─ .gitignore
+```
